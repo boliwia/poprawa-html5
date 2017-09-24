@@ -1,0 +1,70 @@
+/* general styles - begin */
+
+body {
+    text-align: center;
+    margin: 0;
+    font-family: "Lato";
+}
+
+.section, .content {
+    padding: 30px;
+}
+}
+/* general styles - end */
+
+/* Menu styles - begin */
+
+menu {
+    background-color: #222;
+}
+
+.menu > ul {
+    margin: 0;
+}
+.menu__item {
+    display: inline-block;
+    padding: 20px;
+    color: #fff;
+}
+.menu__item a {
+    color: #fff;
+    text-decoration: none;
+}
+
+/* Menu styles - end */
+
+
+/*  Header styles - begin */
+
+.header img {
+    width: 100%;
+}
+
+.header--main {
+    position: relative;
+}
+
+.header__title--main {
+    color: #fff;
+    position: absolute;
+    top: 45%;
+    width: 100%;
+}
+
+/*  Header styles - end */
+
+/*  footer styles - begin */
+
+.contact {
+    background-color: #222;
+    color: #fff;
+}
+
+.contact__content {
+    font-style: normal;
+}
+
+.contact__content a {
+    color: #fff;
+}
+/*  footer styles - end */

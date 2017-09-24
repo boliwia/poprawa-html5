@@ -1,98 +1,38 @@
-/* General styles */
-
 body {
-	margin: 0;
-	font-family: 'Lato', sans-serif;
-}
-
-.header {
-	text-align: center;
-	font-size: 30px;
-	margin-bottom: 20px;
-}
-
-.section {
-	margin: 30px 0;
-	padding: 0 50px;
-}
-
-.content {
-	text-align: center;
-}
-
-
-/* Menu styles */
-
-.menu {
-	text-align: center;
-	background: #222;
-}
-
-.menu__list {
-	margin: 0;
+    background-color: #000;
+    color: #fff;
+    font-family: "Lato";
+    margin: 0;
+    text-align: center;
 }
 
 .menu__item {
-	display: inline-block;
-	padding: 25px;
-	list-style: none;
+    display: inline;
+    padding: 20px;
+    font-size: 1em;
 }
 
-.menu__item a {
-	text-decoration: none;
-	color: #fff;
+a {
+    text-decoration-line: none;
+    color: #fff;
 }
 
-.menu__item a:hover {
-	color: #999;
+header {
+    position: relative;
+    width: 100%;
+    text-align: center;
+    font-size: 2em;
 }
 
-
-/* Header styles */
-
-.header--main {
-	position: relative;
+h1 {
+    position: absolute;
+    bottom: 50%;
+    width: 100%;
 }
 
-.header--main img {
-	width: 100%;
+.section {
+    background-color: white;
+    color: #000;
+    font-size: 1em;
 }
 
-.header__title--main {
-	position: absolute;
-	top: 50%;
-	font-size: 50px;
-	font-weight: 700;
-	margin: 0 auto;
-	left: 0;
-	right: 0;
-	text-transform: uppercase;
-	color: #fff;
-}
-
-
-
-/* Footer styles */
-
-.contact {
-	padding: 30px 50px;
-	background: #222;
-}
-
-.contact__header {
-	color: #fff;
-}
-
-.contact__content {
-	text-align: center;
-	color: #fff;
-	font-style: normal;
-}
-
-.contact__content a {
-	color: #fff;
-}
-
-.contact__content a:hover {
-	color: #999;
-}
